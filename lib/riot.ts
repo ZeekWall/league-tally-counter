@@ -9,7 +9,7 @@ function checkForAPIKey() {
 };
 
 
-export async function getMainPlayerMatches(playerId: string) {
+export async function getPlayerMatches(playerId: string) {
     const apiKey = checkForAPIKey();
 
     const res = await fetch(
